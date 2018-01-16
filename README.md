@@ -20,6 +20,7 @@ To get this up and running:
 4) Add the script paths to the on and off actions to the weather alert switch created in step one -  reference fig1.jpeg
 5) Edit line 10 of the weatheralert.py script to point to the IP and port of the device Domoticz is installed
 6) Edit the URL in line 14 of the weatheralert.py script. The URL for your area can be found at NOAA website's - https://alerts.weather.gov/
+7) Edit the device_name varible to a Chromecast device on the network
 
 With some small edits this script could work with other IoT devices or software like Sonos or Logitech Media Server. 
 
