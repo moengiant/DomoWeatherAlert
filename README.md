@@ -7,7 +7,7 @@ Python modules: sys, time, pychromecast, gTTS, feedparser, requests, smtplib and
 
 The weatheralert.py script pulls data from a NOAA  rss feed and is parsed using the feedparser module.  
 NOAA's website:  https://alerts.weather.gov/
-The script checks to see if there is an active alert for the area defind by the rss feed. 
+The script checks to see if there is an active alert for the area in the rss feed. 
 If there is an active alert the script will send a text message in addition to announcing the weather alert message via a Googlecast device or cast group. 
 The script generates an mp3 file using the python gTTS module.
 The mp3 file, weather_alert_message.mp3, is saved in the www/media directory.
