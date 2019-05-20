@@ -31,6 +31,8 @@ To get this up and running:
 11) Edit line 58 to reflect the path to the www/media directory for your Domoticz location
 12) Edit the device_name varible to a Chromecast device on the network
 
-With some small edits this script could work with other IoT devices or software like Sonos or Logitech Media Server. 
+FYI: You can change the extentions on the python scripts to .pyw in order for the scripts to run in the backbround.   
 
-Running on Windows 10 | Domoticz Version: 3.8153 | Nest/z-wave/milights/Kodi/LMS/Google Home
+With some small edits this script could work with other IoT devices or software like Sonos speaker, Samsung wifi speaker or a Logitech Media Server. 
+
+Running on Windows 10 | Domoticz Version: 4.97 | Controlicz/Google Home/Kodi/LMS/Milights/Nest/Yeelights/z-wave 
